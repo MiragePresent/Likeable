@@ -1,0 +1,33 @@
+{
+    "name": "miragepresent/likeable",
+    "description": "Quick likes support",
+    "keywords": ["likes support", "laravel", "eloquent", "like", "likes relation", "likeable"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/MiragePresent/Likeable/issues",
+        "source": "https://github.com/MiragePresent/Likeable"
+    },
+    "authors": [
+        {
+            "name": "David Holovii",
+            "email": "mirage.present@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MiragePresent\\Likeable\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MiragePresent\\Likeable\\LikeableServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "beta",
+    "prefer-stable": true
+}
