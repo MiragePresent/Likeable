@@ -3,7 +3,7 @@ Likable Helper for Eloquent models
 
 Installation
 ------------
-Run `composer require miragepresent/likable`;
+Run `composer require miragepresent/likeable`;
 
 And `php artisan migrate`
 
@@ -11,16 +11,16 @@ And `php artisan migrate`
 Usage
 -----
 
-* **The simple way.** Just use `Likable` trait in your model:  
+* **The simple way.** Just use `Likeable` trait in your model:  
 ```
 namespace App;
  
 use Illuminate\Database\Eloquent\Model;
-use MiragePresent\Likable\Likable;
+use MiragePresent\Likeable\Likeable;
  
 class Photo extends Model {
  
-    use Likable;
+    use Likeable;
  
 }
 ```
