@@ -11,7 +11,8 @@ And `php artisan migrate`
 Usage
 -----
 
-* **The simple way.** Just use `Likeable` trait in your model:  
+Just use `Likeable` trait in your model:  
+
 ```
 namespace App;
  
